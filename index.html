@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc">
+        <p class="display"></p>
+        <table>
+          <tr>
+            <td class="action ac">AC</td>
+            <td class="action del">DEL</td>
+            <td class="action" data-value=".">.</td>
+            <td class="action" data-value="/">/</td>
+          </tr>
+          <tr>
+            <td class="val" data-value="8">8</td>
+            <td class="val" data-value="7">7</td>
+            <td class="val" data-value="9">9</td>
+            <td class="action" data-value="*">*</td>
+          </tr>
+          <tr>
+            <td class="val" data-value="4">4</td>
+            <td class="val" data-value="5">5</td>
+            <td class="val" data-value="6">6</td>
+            <td class="action" data-value="+">+</td>
+          </tr>
+          <tr>
+            <td class="val" data-value="1">1</td>
+            <td class="val" data-value="2">2</td>
+            <td class="val" data-value="3">3</td>
+            <td class="action" data-value="-">-</td>
+          </tr>
+          <tr>
+            <td class="val" data-value="00">00</td>
+            <td class="val" data-value="0">0</td>
+            <td class="action equal" data-value="=">=</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
